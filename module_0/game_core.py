@@ -16,3 +16,5 @@ def game_core_v5(number, rand_num_min, rand_num_max):
         predict = int((rand_max_score+rand_min_score)/2)
         count+=1
     return(count) # выход из цикла, если угадали
+
+    

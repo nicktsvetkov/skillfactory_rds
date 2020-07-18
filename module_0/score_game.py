@@ -10,3 +10,5 @@ def score_game(game_core, number, rand_num_min, rand_num_max):
     score = int(np.mean(count_ls))
     print("Ваш алгоритм угадывает число в среднем за {} попыток".format(score))
     return(score)
+
+    

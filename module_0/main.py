@@ -11,3 +11,4 @@ while rand_num_min>rand_num_max:
 number = np.random.randint(rand_num_min,rand_num_max+1)    # загадали число
 print("Загадано число от {} до {}".format(rand_num_min, rand_num_max))
 score_game.score_game(game_core.game_core_v5, number, rand_num_min, rand_num_max)
+
